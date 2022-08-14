@@ -26,10 +26,15 @@ Some basics SQL Commands
     ....
     );
     for.eg you have to create the table name as sailors and into the BOAT databases then you will use the cmd such as
+    CREATE TABLE sailors (
+    ID int(60) NOT NULL,
+    FirstName varchar(255) NOT NULL,
+    ....
+    );
+  
+3.Drop table or database:
+
+    Drop table table_name;                drops the existing table
+    Drop database database_name;           drops the existing database 
     
-
-Drop table or database:
-
-Drop table table_name;
-Drop database database_name;
 
