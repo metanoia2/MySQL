@@ -34,7 +34,12 @@ Some basics SQL Commands
   
 3.Drop table or database:
 
-    Drop table table_name;                drops the existing table
-    Drop database database_name;           drops the existing database 
+    Drop table table_name;
+    It drops the existing table and deleting a table will result in loss of complete information stored in the table.
+    
+    Drop database database_name;           
+    It drops the existing database and you have admin privilege before dropping any database. Once a database is dropped, 
+    you can check it in the list of databases with the following SQL command: SHOW DATABASES;
+    
     
 
