@@ -41,5 +41,19 @@ Some basics SQL Commands
     It drops the existing database and you have admin privilege before dropping any database. Once a database is dropped, 
     you can check it in the list of databases with the following SQL command: SHOW DATABASES;
     
+4.Alter Command:
+Used to add,delete,or modify columns in an existing table.
     
+    i)Alter table to add column:
+   
+        alter table table_name add column_name datatype;
+    
+    ii)Alter table to drop column:
+    
+        alter table table_name drop column column_name;
+    
+    iii)Alter table - modify column
+    
+        alter table table_name modify column column_name datatype;
+
 
