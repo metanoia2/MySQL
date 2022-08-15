@@ -1,0 +1,35 @@
+1	(a) Create an Account with the following attributes 
+      acctno - Account Number – Integer 
+      bal – Balance – Interger
+(b)  Add column acctHolderName attribute with type Number
+(c)  Change column acctHolderName type to varchar
+(d) Delete column acctHolderName
+
+----------------------------------------------------------------------------------------
+Code:
+Create database Account;
+Use Account;
+Create table AccountDetails
+(
+acctno int NOT NULL,
+balance int Not NULL
+);
+ALTER Table AccountDetails
+ADD AccHandlerName varchar(255) NOT NULL;
+ALTER TABLE AccountDetails
+DROP COLUMN AccHandlerName;
+---------------------------------------------------------------------------------------------
+ 
+2 Create the Depositor table with th following attributes
+      custname – Customer Name – varchar
+      custID – Customer ID – Integer
+-----------------------------------------------------------------------------------------------
+Code:-
+Use Account;
+Create table Depositor
+(
+CustomerName varchar NOT NULL,
+CustomerID int NOT NULL
+);
+
+
