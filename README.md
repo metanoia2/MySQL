@@ -1,6 +1,7 @@
 **# MySQL
-All lab assignment <br>
-To login (from unix shell) use -h only if needed - <br>   
+All lab assignment 
+
+To login (from unix shell) use -h only if needed -   
 [mysql dir]/bin/mysql -h hostname -u root -p <br> 
 Create a database on the sql server - create database [databasename];<br> 
 List all databases on the sql server - show databases;<br> 
